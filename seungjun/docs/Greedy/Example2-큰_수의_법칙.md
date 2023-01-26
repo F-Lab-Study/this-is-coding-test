@@ -1,4 +1,4 @@
-# [큰 수의 법칙]()
+# [큰 수의 법칙](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Example2.java)
 
 ## 문제
 

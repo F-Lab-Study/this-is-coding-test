@@ -1,4 +1,4 @@
-# [1이 될 때까지]()
+# [1이 될 때까지](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Example4.java)
 
 ## 문제
 

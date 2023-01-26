@@ -1,4 +1,4 @@
-# [거스름돈 유형]()
+# [거스름돈 유형](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Example1.java)
 
 ## 문제
 

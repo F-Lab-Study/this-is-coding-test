@@ -1,4 +1,4 @@
-# [숫자 카드 게임]()
+# [숫자 카드 게임](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Example3.java)
 
 ## 문제
 
