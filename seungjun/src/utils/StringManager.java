@@ -19,7 +19,10 @@ public class StringManager {
     }
 
     public static int getSingleInt() {
-        return scanner.nextInt();
+        int num = scanner.nextInt();
+        scanner.nextLine();
+
+        return num;
     }
 
     public static String[] splitBlank(String value) {
