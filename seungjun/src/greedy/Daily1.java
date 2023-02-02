@@ -5,51 +5,57 @@ import java.util.Arrays;
 import static utils.StringManager.*;
 
 public class Daily1 {
-    private static int groupCount = 0;
-    private static int amountOfAdventurer;
-    private static int[] adventurersFearArray;
-    
-    public static void main(String[] args) {
-        getInputValue();
+    private int groupCount = 0;
+    private final int amountOfAdventurer;
+    private final int[] adventurersFearArray;
 
-        solution();
-        
-        singleResult(groupCount);
+    public Daily1(int amountOfAdventurer, String adventurersFearString) {
+        this.amountOfAdventurer = amountOfAdventurer;
+        adventurersFearArray = sortArray(parseStringArrayToIntArray(splitBlank(adventurersFearString)));
     }
 
-    private static void getInputValue() {
-        System.out.printf("모험가 수 입력 : ");
-        amountOfAdventurer = getSingleInt();
+    public int solution() {
+        checkAdventurersFearArrayLength();
+        makeGroup();
 
-        System.out.printf("모험가별 공포도 입력 : ");
-        adventurersFearArray = parseStringArrayToIntArray(splitBlank(getStringLine()));
-        if (adventurersFearArray.length != amountOfAdventurer) {
+        return groupCount;
+    }
+
+    private void checkAdventurersFearArrayLength() {
+        if (notSameAmountOfAdventurer()) {
             throw new RuntimeException("amountOfAdventurer 만큼의 숫자 배열을 입력하세요!");
+        }
+
+        if (isOverSizeFearValue()) {
+            throw new RuntimeException("공포도 값은 amountOfAdventurer를 넘을 수 없습니다!");
         }
     }
 
-    private static void solution() {
-        sortArray();
-        makeGroup();
+    private int[] sortArray(int[] adventurersFearArray) {
+        return Arrays.stream(adventurersFearArray).sorted().toArray();
     }
 
-    private static void sortArray() {
-        adventurersFearArray = Arrays.stream(adventurersFearArray).sorted().toArray();
-    }
-
-    private static void makeGroup() {
-        for (int i = 0; i < amountOfAdventurer; i+= adventurersFearArray[i]) {
+    private void makeGroup() {
+        for (int i = 0; i < amountOfAdventurer; i += adventurersFearArray[i]) {
             countGroup(i);
         }
     }
 
-    private static void countGroup(int i) {
+    private boolean notSameAmountOfAdventurer() {
+        return adventurersFearArray.length != amountOfAdventurer;
+    }
+
+    private boolean isOverSizeFearValue() {
+        return Arrays.stream(adventurersFearArray).anyMatch(af -> af > amountOfAdventurer);
+    }
+
+    private void countGroup(int i) {
         if (canMakeGroup(i)) {
             groupCount++;
         }
     }
 
-    private static boolean canMakeGroup(int i) {
+    private boolean canMakeGroup(int i) {
         return i + adventurersFearArray[i] < amountOfAdventurer;
     }
 }
