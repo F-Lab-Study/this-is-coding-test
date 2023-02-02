@@ -1,4 +1,4 @@
-# [곱하기 혹은 더하기]()
+# [곱하기 혹은 더하기](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Daily2.java)
 
 ## 문제
 

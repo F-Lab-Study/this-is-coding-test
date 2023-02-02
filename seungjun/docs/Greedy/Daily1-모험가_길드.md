@@ -1,4 +1,4 @@
-# [모험가 길드]()
+# [모험가 길드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/greedy/Daily1.java)
 
 ## 문제
 
