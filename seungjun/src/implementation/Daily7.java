@@ -10,13 +10,12 @@ public class Daily7 {
     private void initialScoreList(String scoreString) {
         int middleIdx = scoreString.length() / 2;
         int scoreLeft = 0;
-        int scoreRight = 0;
 
         for (int i = 0; i < middleIdx; i++) {
             scoreLeft += parseInt(scoreString.charAt(i)) - parseInt(scoreString.charAt(i + middleIdx));
         }
 
-        state = scoreLeft == scoreRight;
+        state = scoreLeft == 0;
     }
 
     private static int parseInt(char value) {
