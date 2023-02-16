@@ -1,4 +1,4 @@
-package baekjoon.q7576;
+package bfs_dfs.q7576;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package baekjoon.q24444;
+package bfs_dfs.q24444;
 
 import java.io.BufferedReader;
 import java.io.IOException;
