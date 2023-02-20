@@ -93,6 +93,6 @@
 왜 이런 결과가 나왔을까 생각해보니 책에서 주어진 "풀이 시간 20분"에 부담을 느껴 무리하게 풀이하려고 했기 때문인 것 같다.<br>
 차라리 풀이 시간을 30분이나 1시간 정도로 좀 더 여유있게 가져가서 문제를 풀이를 하는 것이 좋을 것 같다.
 
-> [오답 코드1](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/sorting/daily25/Daily25FailFirst.java)
-> [오답 코드2](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/sorting/daily25/Daily25FailSecond.java)
+> [오답 코드1](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/sorting/daily25/Daily25FailFirst.java)<br>
+> [오답 코드2](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/sorting/daily25/Daily25FailSecond.java)<br>
 > [정답 코드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/sorting/daily25/Daily25Answer.java)
