@@ -87,3 +87,5 @@ int upperBound(arr, target):
 ```
 
 결과적으로 (upperBound() - lowerBound())가 x의 갯수가 된다.
+
+> [작성 코드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/binary_search/Daily27.java)
