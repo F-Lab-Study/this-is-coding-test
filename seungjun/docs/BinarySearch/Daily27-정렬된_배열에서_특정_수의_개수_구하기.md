@@ -86,4 +86,4 @@ int upperBound(arr, target):
     return rear
 ```
 
-결과적으로 (upperBound() - lowerBound())이 x의 갯수가 된다.
+결과적으로 (upperBound() - lowerBound())가 x의 갯수가 된다.
