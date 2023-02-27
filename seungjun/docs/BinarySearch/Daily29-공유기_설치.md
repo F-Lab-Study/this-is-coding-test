@@ -107,5 +107,5 @@ UpperBound가 탐색을 종료한 후에 각 공유기 간의 거리를 비교�
 
 <br>
 
-> [오답 코드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/binary_search/Daily29.java)
+> [오답 코드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/binary_search/Daily29.java)<br>
 > [정답 코드](https://github.com/Java-Algorithm-Study-Group/this-is-coding-test/blob/main/seungjun/src/binary_search/Daily29Answer.java)
